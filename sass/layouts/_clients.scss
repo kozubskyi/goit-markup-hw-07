@@ -1,0 +1,44 @@
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+}
+
+.client-item {
+  width: calc((100% - 6 * 30px) / 6);
+  margin: 15px;
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icons-gray;
+  border-radius: 4px;
+
+  transition: $site-transition;
+
+  &:hover,
+  &:focus {
+    border-color: $hover-color;
+    outline-color: $hover-color;
+  }
+}
+
+.client-icon {
+  fill: $icons-gray;
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: $hover-color;
+  outline-color: $hover-color;
+}

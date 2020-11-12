@@ -1,0 +1,40 @@
+.principles-section {
+  padding-top: 94px;
+}
+
+.principles-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+
+  .item {
+    width: calc((100% - 4 * 30px) / 4);
+    margin: 15px;
+  }
+}
+
+.principles-div {
+  display: flex;
+  height: 120px;
+  background-color: $section-gray-bg-color;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.principle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+
+  &-text {
+    color: $secondary-text-color;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.71;
+  }
+}

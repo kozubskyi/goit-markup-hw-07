@@ -1,0 +1,26 @@
+address {
+  color: $white-color;
+  font-style: normal;
+}
+
+.physical-address {
+  display: inline-block;
+  margin-bottom: 9px;
+
+  transition: $site-transition;
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+    outline-color: $hover-color;
+  }
+}
+
+.footer-e-mail,
+.footer-tel {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: $transparent-gray-color;
+
+  transition: $site-transition;
+}

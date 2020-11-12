@@ -1,0 +1,14 @@
+.footer {
+  background-color: $section-dark-bg-color;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .container {
+    display: flex;
+  }
+
+  &-logo-address {
+    width: calc((100% - 3 * 30px) / 4);
+    margin-right: 30px;
+  }
+}

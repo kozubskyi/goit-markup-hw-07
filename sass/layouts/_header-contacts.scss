@@ -1,0 +1,35 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  .item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.header-contacts-icon {
+  margin-right: 10px;
+  fill: $secondary-text-color;
+}
+
+.header-e-mail,
+.header-tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-text-color;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: $site-transition;
+}
+
+.contacts .link:hover .header-contacts-icon,
+.contacts .link:focus .header-contacts-icon {
+  fill: $hover-color;
+  outline-color: $hover-color;
+}

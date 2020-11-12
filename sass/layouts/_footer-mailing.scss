@@ -1,0 +1,42 @@
+.mailing {
+  width: calc((100% - 1 * 30px) / 2);
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-email {
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  color: white;
+  background-color: $section-dark-bg-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.footer-btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: "roboto", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: $hover-color;
+  outline-color: $hover-color;
+  border: none;
+  padding: 10px 29px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-telegram {
+  fill: white;
+  margin-left: 10px;
+}

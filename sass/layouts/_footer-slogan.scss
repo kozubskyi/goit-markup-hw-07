@@ -1,0 +1,43 @@
+.footer-slogan {
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.footer-social-networks {
+  width: calc((100% - 3 * 30px) / 4);
+  margin-right: 30px;
+
+  &-list {
+    display: flex;
+  }
+}
+
+.footer-social-network-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-network-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: $site-transition;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+    outline-color: $hover-color;
+  }
+}
+
+.footer-social-network-icon {
+  fill: white;
+}

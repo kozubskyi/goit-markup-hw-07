@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  background-color: white;
+  border-bottom: 1px solid #ececec;
+
+  width: 100%;
+  min-height: 79px;
+  top: 0;
+
+  z-index: 1;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}

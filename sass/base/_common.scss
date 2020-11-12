@@ -1,0 +1,90 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $primary-text-color;
+  letter-spacing: 0.03em;
+
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.17;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: $hover-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.logo,
+svg,
+.form-input,
+.form-textarea {
+  transition: $site-transition;
+}
+
+.e-mail:hover,
+.e-mail:focus,
+.tel:hover,
+.tel:focus {
+  color: $hover-color;
+  outline-color: $hover-color;
+}
