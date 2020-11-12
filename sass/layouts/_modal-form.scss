@@ -117,8 +117,8 @@
 }
 
 .checkbox:checked + .agreement .custom-checkbox {
-  background-image: url(../../img/icons/check-mark.svg);
   background-color: $hover-color;
+  background-image: url(../../img/icons/check-mark.svg);
   border: 2px solid $hover-color;
   outline-color: $hover-color;
 }
