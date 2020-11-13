@@ -120,6 +120,9 @@
   fill: white;
   background-image: url(../../img/icons/check-mark.svg);
   background-color: $hover-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   border: 2px solid $hover-color;
   outline-color: $hover-color;
 }
