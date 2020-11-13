@@ -116,9 +116,9 @@
   margin-right: 8px;
 }
 
-.checkbox:checked + .agreement .custom-checkbox {
-  fill: white;
-  background-image: url(../../img/icons/check-mark.svg);
+.checkbox:checked + .agreement > .custom-checkbox {
+  // fill: white;
+  background-image: url(../img/icons/check-mark.svg);
   background-color: $hover-color;
   background-repeat: no-repeat;
   background-position: center;
